@@ -1,0 +1,40 @@
+// styles.scss
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+  
+    p {
+      color: #555;
+    }
+  }
+  
